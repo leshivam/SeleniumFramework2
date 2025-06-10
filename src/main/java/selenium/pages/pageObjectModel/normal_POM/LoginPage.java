@@ -1,14 +1,15 @@
 package selenium.pages.pageObjectModel.normal_POM;
 
-import selenium.utils.PropertiesReader ;
-import selenium.utils.WaitHelpers ;
+import selenium.utils.PropertiesReader;
+import selenium.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+// Page Class
 
 
 
 public class LoginPage {
-
     WebDriver driver;
 
     public LoginPage(WebDriver driver) {
@@ -54,4 +55,6 @@ public class LoginPage {
         WaitHelpers.waitJVM(5000);
 
     }
-}
+
+    }
+
